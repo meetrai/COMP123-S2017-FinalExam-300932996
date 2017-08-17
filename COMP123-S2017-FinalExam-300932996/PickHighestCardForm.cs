@@ -272,7 +272,7 @@ namespace COMP123_S2017_FinalExam_300932996
                 this.CurrentClickedCard.BackColor = Color.Green;
                 UserMessageTextBox.Text = "You Got It!";
 
-                //Uncomment this --> ScoreBoard.Score += this.MaximumPoints;
+                 ScoreBoard.Score += this.MaximumPoints;
 
                 DealButton.Enabled = true;
             }
@@ -358,7 +358,7 @@ namespace COMP123_S2017_FinalExam_300932996
         /// <param name="e"></param>
         private void CountDownTimer_Tick(object sender, EventArgs e)
         {
-            /* Uncomment THIS
+           
             ScoreBoard.UpdateTime();
             if (ScoreBoard.Time == 0)
             {
@@ -367,7 +367,7 @@ namespace COMP123_S2017_FinalExam_300932996
                 this._disableDealtCards();
                 this._showFinalScore();
             }
-            */
+            
         }
 
         /// <summary>

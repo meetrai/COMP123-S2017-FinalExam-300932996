@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /*
- * Name:
- * Date:
- * StudentID:
- * Description:
- * Version:
+ * Name:Manmeet Singh
+ * Date:8/17/2017
+ * StudentID:300932996
+ * Description:The Pick the card game
+ * Version:0.1
  */
 
 namespace COMP123_S2017_FinalExam_300932996
@@ -24,7 +24,7 @@ namespace COMP123_S2017_FinalExam_300932996
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PickHighestCardForm());
+            Application.Run(new SplashForm());
         }
     }
 }
